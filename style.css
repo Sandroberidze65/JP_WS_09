@@ -1,7 +1,86 @@
-.h1 {
-    color: red;
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
-.p {
-    color: greenyellow;
+body nav {
+    background-color: #432874;
+    height: 60px;
+}
+
+body nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding-left: 40px;
+}
+
+body nav div {
+    display: flex;
+    padding-top: 18px !important;
+
+
+}
+
+body nav ul li a {
+    color: white;
+    text-decoration: none;
+
+}
+
+body nav .page {
+    font-weight: 500;
+    font-size: 16px;
+    margin-right: 20px;
+}
+
+body nav .right .page {
+    font-size: 20px;
+}
+
+body nav .logo i {
+    font-size: 20px;
+    margin-right: 30px;
+}
+
+/* .gemLi,
+.coinsLi {
+    padding: 0px !important;
+    margin-left: 30px !important;
+}
+
+.gemCount,
+.coinsCount {
+    padding-left: 5px !important;
+    font-weight: 600;
+
+}
+
+.gem img {
+    height: 20px;
+    width: 20px;
+} */
+.countPage {
+    margin-right: 10px;
+}
+
+.fa-rotate-right {
+    margin-left: 20px;
+}
+
+.countPage,
+.countPage i {
+    font-size: 20px;
+}
+
+.countPage img {
+    height: 20px;
+    width: 20px;
+}
+
+main .profile {
+    height: 190px;
+    background-color: #36205D;
 }
